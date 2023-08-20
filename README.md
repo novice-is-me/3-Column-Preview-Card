@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://novice-is-me.github.io/3-Column-Preview-Card/)
- 
+- Live Site URL: [https://novice-is-me.github.io/3-Column-Preview-Card/](https://novice-is-me.github.io/3-Column-Preview-Card/) 
+  
 ### Built with
 
 - Semantic HTML5 markup
