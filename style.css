@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    color: white; 
+}
+
+main{
+    background-color: hsl(0, 0%, 95%); 
+    border: 1px solid yellow; 
+    height: 100vh;
+    width: 100vw;  
+    margin: 20 20px;   
+
+}
+
+.container{
+    border: 1px solid blue; 
+    height: 100vh;  
+    display: flex;   
+    flex-wrap: wrap;
+    flex-direction: row;  
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px;     
+    padding-top: 55px;  
+    padding-bottom: 60px;  
+
+ 
+}
+
+.container .card{
+    border: 1px solid orangered;
+    max-width: 370px;          
+    height: 600px;        
+    padding: 50px;          
+       
+
+}
+
+.card img{
+    border: 1px solid black;  
+}
+
+#container-1{
+    background-color: hsl(31, 77%, 52%); 
+}
+
+#container-2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#container-3{
+    background-color: hsl(179, 100%, 13%); 
+}
+
+.card h2{ 
+    font-family: 'Big Shoulders Display', cursive; 
+    text-transform: uppercase; 
+    font-size: 45px;  
+    margin-top: 20px;        
+
+}
+
+.card p{
+    font-family: 'Lexend Deca', sans-serif;  
+    font-size: 17.8px;          
+    line-height: 30px; 
+    color: hsla(0, 0%, 100%, 0.75);  
+    margin-top: 30px;         
+}
+
+.card img,
+.card h2,
+.card p,
+.card button{ 
+    margin-bottom: 20px;  
+    margin-left: 10px;   
+}
+
+.card button{
+    height: 55px;  
+    width: 180px;      
+    border-radius: 25px;
+    margin-top: 80px;   
+    margin-bottom: 50px;    
+    border-color: transparent; 
+}
+
+.card button:hover,
+#button-1:hover,
+#button-2:hover,
+#button-3:hover{    
+    cursor: pointer;  
+    border: 1px solid white;
+    background-color: hsla(0, 0%, 100%, 0);  
+    color: white;      
+}
+
+#button-1{ 
+    color: hsl(31, 77%, 52%);
+}
+
+#button-2{
+    color: hsl(184, 100%, 22%);
+}
+
+#button-3{
+    color: hsl(179, 100%, 13%);
+}
+
+#button-1,
+#button-2,
+#button-3{
+    font-size: 18px; 
+    font-family: 'Lexend Deca', sans-serif;   
+   
+}
